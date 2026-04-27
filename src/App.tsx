@@ -1,5 +1,10 @@
+import { Heading } from './componentes/Heading';
+
+import './styles/theme.css';
+import './styles/global.css';
+
 function App() {
-  return <h1>Olá Mu ndo</h1>;
+  return <Heading />;
 }
 
 export default App;
