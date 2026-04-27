@@ -7,8 +7,6 @@ function App() {
   return (
     <>
       <Heading attr='teste'>Olá Mundo</Heading>
-
-      <Heading>Olá Mundo 2</Heading>
     </>
   );
 }
