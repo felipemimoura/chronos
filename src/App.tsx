@@ -1,31 +1,24 @@
+import { Container } from './componentes/Container';
 import './styles/global.css';
 import './styles/theme.css';
 
 function App() {
   return (
     <>
-      <div className='container'>
-        <div className='content'>
-          <section>LOGO</section>
-        </div>
-      </div>
-      <div className='container'>
-        <div className='content'>
-          <section>LOGO</section>
-        </div>
-      </div>
+      <Container>
+        <section>LOGO</section>
+      </Container>
+      <Container>
+        <section>MENU</section>
+      </Container>
 
-      <div className='container'>
-        <div className='content'>
-          <section>FORM</section>
-        </div>
-      </div>
+      <Container>
+        <section>FORM</section>
+      </Container>
 
-      <div className='container'>
-        <div className='content'>
-          <section>FOOTER</section>
-        </div>
-      </div>
+      <Container>
+        <section>Footer</section>
+      </Container>
     </>
   );
 }
